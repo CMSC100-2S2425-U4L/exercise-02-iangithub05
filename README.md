@@ -1,2 +1,2 @@
-# exercise-02-iangithub05
-exercise-02-iangithub05 created by GitHub Classroom
+Author: Ian Tristan C. Arragona
+Section: CMSC 100 U4L
