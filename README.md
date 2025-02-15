@@ -1,2 +1,2 @@
-Author: Ian Tristan C. Arragona
-Section: CMSC 100 U4L
+Author: Ian Tristan C. Arragona<br>
+Section: CMSC 100 U4L<br>
