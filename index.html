@@ -5,11 +5,146 @@
             <script src="https://cdn.tailwindcss.com"></script>
             <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         </head>
-        <body>
-            <div class="min-h-screen flex flex-col items-center">
-                <div class="border-2 w-[150px] text-center bg-#00ff00">
-                    This is a header
+        <body class="font-[Poppins]">
+            <div class="min-h-screen flex flex-col">
+
+                <!-- header -->
+                <div class="fixed top-0 left-0 w-full bg-white text-start border-2 h-[85px] flex flex-row rounded-b-lg z-10">
+                    <span class="ml-[2.5%] font-bold text-[50px]"><a href="#filler" class="flex flex-row items-center"><img src="./assets/person.jpg" class="size-[50px] mr-4"/>ian.</a></span>
+                    <div class="ml-auto flex items-center mr-6">
+                        <nav class="flex space-x-6">
+                            <a href="#about-me" class="p-1.5 rounded-lg hover:bg-blue-200">about me</a>
+                            <a href="#skills" class="p-1.5 rounded-lg hover:bg-blue-200">skills</a>
+                            <a href="#projects" class="p-1.5 rounded-lg hover:bg-blue-200">projects</a>
+                        </nav>
+                    </div>
                 </div>
+                <!-- end of header -->
+
+                <!-- filler -->
+                <div class="h-[85px]" id="filler"></div>
+                <!-- end of filler -->
+
+                <!-- body -->
+                <div class="flex justify-center items-center flex flex-col">
+                    <!-- name and pic -->
+                    <div class="h-[70vh] w-screen flex flex-row gap-6 justify-center items-center relative bg-cover bg-center" style="background-image: url('./assets/fillerbg.jpg')">
+                        <img src="./assets/Arragona.jpg" class="h-[60vh] max-w-[40%] rounded-lg object-cover z-2"/>
+                        <h1 class="text-[80px] text-white font-bold z-2">Ian Tristan C. <br/> Arragona</h1>
+                    </div>
+                    <!-- end of name and pic -->
+                    <div id="about-me"></div>
+                    <div class="w-[90%] h-[4px] bg-black mt-10 mb-10 rounded-lg" ></div>
+
+                    <!-- about me -->
+                    <div class=" w-full">
+                        <h1 class="ml-[5%] font-bold text-[50px]" > about me.</h1>
+                        <div class="pl-[6%] pr-[6%]">
+                            <p>I am a dedicated sophomore student studying Bachelor of Science in Computer Science in University of the Philippines Los Banos. My interests lie in Game Development and Front-end Development. Aside from my standing and interests, here are some personal trivia about me:</p>
+                            <div class="pl-[2.5%]">
+                                <li>I like to collect perfume</li>
+                                <li>I am from Malolos, Bulacan</li>
+                                <li>My favorite character is Mr. Bean</li>
+                                <li>I trade in my free time</li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of about me -->
+                    
+                    <div id="skills"></div>
+                    <div class="w-[90%] h-[4px] bg-black mt-10 mb-10 rounded-lg" ></div>
+
+                    <!-- skill -->
+                    <div class=" w-full flex flex-col">
+                        <h1 class="ml-[5%] font-bold text-[50px]" > skills.</h1>
+                        <div class="mr-[5%] ml-[5%] w-[90%] flex flex-row justify-center items-center">
+                            <div class="w-[50%] ">
+                                <h2 class="text-[25px] font-bold">Software Skills</h2>
+                                <div class="pl-[2.5%]">
+                                    <li>HTML and CSS (Intermediate)</li>
+                                    <li>JavaScript (Intermediate)</li>
+                                    <li>Python (Intermediate)</li>
+                                    <li>C (Intermediate)</li>
+                                    <li>Java (Beginner)</li>
+                                    <li>R (Beginner)</li>
+                                    <li>Assembly (Beginner)</li>
+                                </div>
+                            </div>
+                            <div class="w-[50%]">
+                                <h2 class="text-[25px] font-bold">Soft Skills</h2>
+                                <div class="pl-[2.5%]">
+                                    <li>Teamwork</li>
+                                    <li>Time Management</li>
+                                    <li>Adaptability</li>
+                                    <li>Fast Learner</li>
+                                    <li>Work under Pressure</li>
+                                    <li>Leadership</li>
+                                    <li>Professionalism</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of skills -->
+                    <div id="projects"></div>
+                    <div class="w-[90%] h-[4px] bg-black mt-10 mb-10 rounded-lg"></div>
+                
+                    <!-- projects -->
+                    <div class=" w-full flex flex-col">
+                        <h1 class="ml-[5%] font-bold text-[50px]"> projects.</h1>
+                        <div class="mr-[5%] ml-[5%] w-[90%] flex flex-row justify-center items-center">
+                            <div class="w-[50%]">
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/memorygame.png" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">Memory Game (Python)</p>
+                                </div>
+
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/sunkencity.png" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">Sunken City Game (Java)</p>
+                                </div>
+
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/dietsolver.png" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">Diet Solver (R)</p>
+                                </div>
+
+                            </div>
+                            <div class="w-[50%] pt-2">
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/yseshrhub.jpg" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">YSES HR Hub (MERN)</p>
+                                </div>
+
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/p20ject.png" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">P20JECT YSES (MERN/on dev)</p>
+                                </div>
+
+                                <div class="group text-white flex flex-col items-center m-2">
+                                    <img src="./assets/agrithm.png" class="w-[70%] group-hover:text-black"/>
+                                    <p class="text-white text-sm group-hover:text-black transition-colors duration-300">iAgri (Flutter/on dev)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end of projects -->
+
+                    <div class="w-[90%] h-[4px] bg-black mt-10 mb-5 rounded-lg"></div>
+
+                    <!-- footer -->
+                    <div class="w-full justify-center h-[44px] flex flex-row rounded-b-lg z-10">
+                            <nav class="flex space-x-6">
+                                <a href="https://www.facebook.com/iantristan.arragona" class="flex flex-row gap-2"><img src="./assets/facebook.jpg" class="size-[23px]">Ian Tristan Arragona</a>
+                                <a href="https://github.com/iangithub05" class="flex flex-row gap-2"><img src="./assets/github.png" class="size-[23px]">iangithub05</a>
+                                <a href="https://gmail.com" class="flex flex-row gap-2"><img src="./assets/gmail.jpg" class="size-[23px]">icarragona@up.edu.ph</a>
+                                <a href="https://www.facebook.com/iantristan.arragona" class="flex flex-row gap-2"><img src="./assets/phone.png" class="size-[23px]">09155303899</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- end of footer -->
+                </div>
+                <!-- end of body -->
             </div>
         </body>
     </html>
